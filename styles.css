@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.body{
+	background-color: #FFFFFF;
+}
+a.active{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #A90E10 ;
+}
+a{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #A90E10 ;
+}
+a:hover{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #000000 ;
+}
+.submenu{
+	font-size: 24px;
+	padding: 105px 0px 0px 0px;
+}
+.dropdown{
+	font-size: 24px;
+}
+.h-one{
+    color: #ffffff;
+    font-family: 'Grenze Gotisch', cursive;
+    padding: 10px 0px 20px 15px;
+    background-image: url("images/slatehorizontal1200.jpg");
+	margin: 20px 0px 20px 0px
+}
+.pic{
+	padding: 20px 40px 20px 40px;
+}
+.parallax { 
+  /* The image used */
+  background-image: url("images/sitebackground.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.desc{
+    text-align: left;
+    font-family: halyard-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+	letter-spacing: 2px;
+	padding-left: 40px;
+}
+.descs{
+    text-align: left;
+    font-family: halyard-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+	letter-spacing: 2px;
+	padding-left: 40px;
+}
+.foot{
+	background-color: #A90E10;
+	font-family: 'Grenze Gotisch', cursive;
+	text-align: center;
+	color: white;
+	padding: 11px 0px 7px 0px;
+	font-size: 20px
+}
+.bottombutton{
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
