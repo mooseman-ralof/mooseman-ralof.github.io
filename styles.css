@@ -1,6 +1,6 @@
 @charset "UTF-8";
-.body{
-	background-color: #FFFFFF;
+body, html {
+  height: 100%;
 }
 a.active{
 	font-family: 'Grenze Gotisch', cursive;
@@ -25,15 +25,18 @@ a:hover{
     color: #ffffff;
     font-family: 'Grenze Gotisch', cursive;
     padding: 10px 0px 20px 15px;
+    margin: 20px 0px 20px 0px;
+    text-indent: 37px;
+    text-shadow: -2px 2px #A90E10;
+    letter-spacing: 1px;
     background-image: url("images/slatehorizontal1200.jpg");
-	margin: 20px 0px 20px 0px
 }
 .pic{
 	padding: 20px 40px 20px 40px;
 }
 .parallax { 
   /* The image used */
-  background-image: url("images/sitebackground.jpg");
+  background-image: url(images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg);
 
   /* Set a specific height */
   height: 100%; 
