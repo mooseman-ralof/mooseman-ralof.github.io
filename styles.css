@@ -67,11 +67,14 @@ a:hover{
 }
 .foot{
 	background-color: #A90E10;
-	font-family: 'Grenze Gotisch', cursive;
+	font-family: halyard-display, sans-serif;
+	font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+	letter-spacing: 2px;
 	text-align: center;
 	color: white;
-	padding: 11px 0px 7px 0px;
-	font-size: 20px
+	padding: 11px 0px 3px 0px;
 }
 .bottombutton{
 	text-align: center;
