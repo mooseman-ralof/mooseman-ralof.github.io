@@ -3,20 +3,28 @@ body, html {
   height: 100%;
 }
 a.active{
-	font-family: 'Grenze Gotisch', cursive;
-	color: #A90E10 ;
+	font-family: halyard-display, sans-serif;
+	color: #FFFFFF ;
+	font-weight: 600;
+    font-style: normal;
 }
 a{
-	font-family: 'Grenze Gotisch', cursive;
-	color: #A90E10 ;
+	font-family: halyard-display, sans-serif;
+	color: #ffffff ;
+	font-weight: 600;
+    font-style: normal;
 }
 a:hover{
-	font-family: 'Grenze Gotisch', cursive;
-	color: #000000 ;
+	font-family: halyard-display, sans-serif;
+	color: #A90E10 ;
+	font-weight: 600;
+    font-style: normal;
 }
 .submenu{
-	font-size: 24px;
-	padding: 105px 0px 0px 0px;
+    font-size: 29px;
+    padding-top: 105px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
 .dropdown{
 	font-size: 24px;
@@ -79,4 +87,19 @@ a:hover{
 .bottombutton{
 	text-align: center;
 	margin: 10px 0px 10px 0px;
+}
+.herotext{
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 70px;
+    letter-spacing: 2px;
+    padding: 200px;
+    color: #A90E10;
+}
+.headerimg{
+    background-image: url("images/nick-nice-gPm8h3DS1s4-unsplash copy.jpg");
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
 }
